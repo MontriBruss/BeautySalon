@@ -1,0 +1,284 @@
+@media screen and (max-width: 39.9375em) {
+    #backimg {
+        min-height: 200px;
+    }
+}
+
+@media only screen {
+
+    body {
+        background: #fff;
+    }
+
+header#page-header {
+    margin-bottom:0 !important;
+    
+    /*background: url(img/background.jpg); /* was 02 
+    background-size:100% 100%;
+    background-repeat: no-repeat;*/
+
+}
+@font-face{
+    font-family: "Virtual Bliss";
+    src:url(fonts/VirtualBliss.ttf) format("truetype");
+}
+
+#backimg {
+    position: relative;
+    min-height: 600px;
+    background: url(img/the_name.jpg) center; /* was 02 */
+    background-size:100% 100%;
+    background-repeat: no-repeat;
+}
+#backimg2 {
+    position: relative;
+    min-height: 600px;
+    background: url(img/name.jpg); /* was 02 */
+    background-size:10% 10%;
+    background-repeat: no-repeat;
+}
+
+    header#page-header > div.row {
+        margin-bottom:0 !important;
+        position: relative;
+        top: 10%;
+        transform: translateY(-0%);
+    }
+
+#name{
+    margin-top: 0 !important;
+    height: 200px;
+    width:200px;
+
+}
+
+
+
+    /* For the forms */
+
+    label {
+        font-size: 1.2em;
+        color: #000;
+    }
+
+    textarea, select {
+        font-size: 0.8em;/*
+        -moz-border-radius:10px; /* Firefox 
+        -webkit-border-radius: 10px; /* Safari, Chrome 
+        border-radius: 10px;*/
+    }
+    input[type="text"]
+    {
+        /*border-radius: 10px;*/
+        font-size: 0.8em;
+    }
+
+    /* end of for the Forms */
+
+    h1 {
+      font-family: 'Lobster Two', arial; /* was Lobster Two */
+      font-weight: 400;
+    }
+
+    h2 {
+      color: #fff;
+      font-size: 2em;
+    }
+
+    header h1 {
+    	font-family: 'Lobster', cursive; /* was Lobster,cursive */
+    	font-size:3em;
+    	font-weight: 700; /* was 400 */
+    	color: #fff;
+    	background: #AACA41; /*green was 66564B  */
+    	padding:10px;
+    	text-align: center;
+    }
+
+    header h2 {
+    	font-family: 'Dosis', cursive; /* was satisfy, curive */
+    	font-size: 2em;
+    	font-weight: 300; /* was 400 */
+    	color: #66564B;
+    	background: #fff;
+    	padding:10px;
+    	text-align: center;
+    }
+    h2{
+        font-family: 'Dosis', cursive; /* was satisfy, curive */
+        font-size: 2.5em;
+        font-weight: 300; /* was 400 */
+        color: #66564B;/*brown*/
+        background: #fff;
+        padding:10px;
+        text-align: center;
+    }
+    }
+
+    #schedule tr th {
+        font-family: "Virtual Bliss", tahoma;
+        text-align: center;
+        /*border: 3px solid #AACA41;*/
+         color:#000;
+         background:#fff;
+         padding: 15px;
+         margin: 20px;
+    }
+    #schedule tr td {
+        font-family: "Virtual Bliss", tahoma;
+        text-align: center;
+        /*border: 3px solid #AACA41;*/
+         color:#000;
+         background:#fff;
+         padding: 15px;
+          margin: 20px;
+    }
+
+    .gray h3 {
+        font-family: "Virtual Bliss", tahoma;
+    }
+
+    .front {
+        border-radius: 15px;
+        border: 3px solid #fff;
+    }
+
+    .top-bar-section ul li.active > a {
+      background: #AACA41 !important; 
+      color: #FFFFFF}
+      .top-bar-section ul li.active > a:hover {
+        background: gray !important;
+        color: #FFFFFF; }
+
+    .top-bar-section li {
+        color: #fff;
+    }
+
+    .brown {
+        background: transparent;
+    }
+
+ 
+
+    .brown h3 {
+    	color: #333333;
+    	font-family: 'Satisfy', cursive;
+    	font-size: 1.4em;
+    	font-weight: 400;
+    }
+
+    .intro {
+        background: transparent;
+        border: 3px solid #AACA41;
+        border-radius: 15px;
+    }
+
+    .margin-top-50pc { /* Check what this is for??! */
+        margin-top: 20%;
+    }
+
+    p {
+        font-size:1em;
+        font-family: 'Dosis', arial;
+        font-weight: 300;
+        margin:0px;
+    }
+
+    .margin-top-twenty {
+        margin-top: 20px;
+    }
+
+    /*.margin-top-fifty {
+        margin-top: 50px;
+    }*/
+
+    .margin-top-onehundred {
+        margin-top: 100px;
+    }
+
+    p.mediumText {
+        color: #000;
+        font-size: 1.6em;
+        font-family: 'Dosis', arial;
+        font-weight: 300;
+    }
+
+    p.largerText {
+        font-size:2em;
+        font-family: 'Dosis', arial;
+        font-weight: 300;
+    }
+
+    .columns, .column ul li {
+        font-family: 'Dosis', arial;
+        color: #000 !important;
+    }
+
+    .columns ul li {
+        font-size: 1.3em;
+    }
+
+    .button {
+        background: #AACA41;
+    }
+
+    .bungalow {
+        height: 100%;
+        width: 100%;
+        padding: 10px;
+    }
+
+    .turq {
+        border: solid 5px #47959E;
+        background: #fff;
+    }
+
+    
+
+    .black {
+        border: solid 5px #000;
+        background: #fff;
+    }
+
+    .white {
+        background-color: #fff;
+    }
+
+    .center {
+        text-align: center;
+    }
+
+    .nextTo {
+        position: inline;
+    }
+
+    footer .column {
+        background: #333 !important; /* Why important? */
+        text-align: center;
+    }
+
+    footer h1 {
+        font-family: 'Virtual Bliss', arial;
+        font-weight: 400;
+        font-size: 1em;
+        color: #fff !important;
+    }
+
+    footer p, a {
+        font-family: 'Dosis', arial;
+        font-weight: 400;
+        font-size: 1em;
+    }
+
+    footer p {
+        color: #fff !important;
+    }
+
+    footer a {
+        color: #47959E;
+    }
+
+    footer ul li {
+        list-style-type: none;
+    }
+}
